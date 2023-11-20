@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <img
+          class="container__image"
+          src="./images/illustration-hero.svg"
+          alt="An illustration"
+          aria-hidden="true"
+        />
+        <div class="container__content">
+          <!-- Title Part -->
+          <section class="content__title">
+            <h1>Order Summary</h1>
+            <p>
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </section>
+          <!-- Pricing Part -->
+          <section class="content__pricing">
+            <section class="content__pricing-info">
+              <img src="images/icon-music.svg" alt="An icon of a music" />
+              <section class="pricing__detail">
+                <p>Annual Plan</p>
+                <p>$59.99/year</p>
+              </section>
+            </section>
+            <button type="button" class="change-btn">Change</button>
+          </section>
+          <!-- Change Button -->
+          <section class="content__buttons">
+            <button type="button" class="payment_btn">
+              Proceed to Payment
+            </button>
+            <button type="button" class="cancel_btn">Cancel Order</button>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
